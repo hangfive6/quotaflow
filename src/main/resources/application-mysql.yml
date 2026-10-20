@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/quotaflow?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai}
+    username: ${DB_USERNAME:quotaflow}
+    password: ${DB_PASSWORD:quotaflow}
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+
