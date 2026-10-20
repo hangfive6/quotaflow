@@ -1,6 +1,7 @@
 package com.quotaflow.repository;
 
 import com.quotaflow.domain.Reservation;
+import jakarta.persistence.LockModeType;
 import org.springframework.data.jpa.repository.*;
 import org.springframework.data.repository.query.Param;
 import java.time.Instant;
